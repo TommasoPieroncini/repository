@@ -9,6 +9,7 @@ package edu.gatech.oad.antlab.person;
  *  @version 1.1
  */
 public class Person4 {
+  
   /** Holds the persons real name */
   private String name;
     /**
@@ -31,7 +32,15 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      return null;
+      char[] letters = input.toCharArray();
+      String response = "";
+
+      for(int i = 0; i < input.length(); i++) {
+        letters[i] = letters[i]++;
+        response = response + "" + letters[i];
+      }
+
+      return response;
     }
     
     /**
@@ -45,6 +54,8 @@ public class Person4 {
     public String toString(String input) {
       return name + calc(input);
     }
+
+
 
 }
 
