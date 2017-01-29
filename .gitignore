@@ -3,3 +3,4 @@
 /M2/build/*
 /.gradle/*
 /.build/*
+/M2/src/main/main.iml
