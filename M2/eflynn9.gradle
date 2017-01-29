@@ -5,9 +5,11 @@ defaultTasks 'jar'
 sourceCompatibility = 1.8
 version = '1.0'
 
-repositories {
-    flatDir {
-        dirs 'lib'
+uploadArchives {
+    repositories {
+        flatDir {
+            dirs 'lib'
+        }
     }
 }
 
