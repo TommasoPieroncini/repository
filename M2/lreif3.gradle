@@ -18,7 +18,7 @@ dependencies {
 jar {
     manifest {
 			attributes (
-						'Implementation-Title': 'vvinutna M2 build',
+						'Implementation-Title': 'lreif3 M2 build',
                        	'Implementation-Version': version,
 						'Class-Path': '../../lib/resources.jar',
 	        			'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
