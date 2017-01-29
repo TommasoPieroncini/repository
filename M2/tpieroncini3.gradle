@@ -2,9 +2,6 @@ apply plugin: 'java'
 
 defaultTasks 'jar'
 
-sourceCompatibility = 1.8
-version = '1.0'
-
 repositories {
 	flatDir {
 		dirs 'lib'
@@ -19,9 +16,9 @@ jar {
     manifest {
 			attributes (
 						'Implementation-Title': "lreif3-M2-build",
-						'Implementation-Version': version,
+						'Implementation-Version': 1.0,
 						'Class-Path': '../../lib/resources.jar',
-	        			'Main-Class': "edu.gatech.oad.antlab.pkg1.AntLabMain",
+	        			'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
 			)
 
     }
