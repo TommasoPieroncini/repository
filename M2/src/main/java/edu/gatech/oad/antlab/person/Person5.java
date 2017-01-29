@@ -37,7 +37,7 @@ public class Person5 {
 		}
 		myOutput[input.length() - 2] = myInput[0];
 		myOutput[input.length() - 1] = myInput[1];
-		return myOutput;
+		return String.valueOf(myOutput);
 	}
 	
 	/**
