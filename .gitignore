@@ -1,3 +1,5 @@
 /.idea/*
 /M2/.gradle/*
 /M2/build/*
+/.gradle/*
+/.build/*
